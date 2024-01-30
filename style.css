@@ -63,20 +63,20 @@ nav button {
     padding: 4px 30px;
 }
 
-.img-content> :nth-child(1) {
+.unlimited-movies{
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     font-size: 48px;
     text-align: center;
 }
 
-.img-content> :nth-child(2) {
+.watch-anywhere{
     font-weight: 400;
     font-size: 24px;
     text-align: center;
 }
 
-.img-content> :nth-child(3) {
+.ready-to-watch{
     font-weight: 400;
     font-size: 20px;
     text-align: center;
@@ -97,7 +97,7 @@ nav button {
     padding: 2px 10px;
     color:white;
     background:none;
-    cursor:pointer;
+  
     right:50px;
 }
 
@@ -147,3 +147,52 @@ nav button {
     background-color: rgba(23, 23, 23, 0.7);
     border: 1px solid rgba(246, 238, 238, 0.5);
 }
+/*---------------------------------------------------- for first section after image part---------------------------*/
+
+.first-section {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section-imgvdo {
+    position: relative;
+}
+
+.first-section-img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+  
+}
+
+.video1 {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 477px;
+    right-margin:100px;
+}
+
+.first-section-div{
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+.enjoy-tv{
+    font-size: 46px;
+    font-weight: bold;
+}
+
+
+.watch-tv {
+    font-size: 20px;
+    margin-top: 5px;
+
+}
+
