@@ -145,83 +145,10 @@ nav button {
     font-size: 12px;
     border-radius: 4px;
     background-color: rgba(23, 23, 23, 0.7);
-    border: 1px solid rgba(246, 238, 238, 0.5);
-}
-/*---------------------------------------------------- for first section after image part---------------------------*/
-/*
-.first-section {
-    display: flex;
-    justify-content: center;
-    max-width: 70vw;
-    margin: auto;
-    color: white;
-    align-items: center;
+    border:
+     1px solid rgba(246, 238, 238, 0.5);
 }
 
-.first-section-imgvdo {
-    position: relative;
-}
-
-.first-section-img {
-    width: 555px;
-    position: relative;
-    z-index: 10;
-  
-}
-
-.video1 {
-    position: absolute;
-    top: 51px;
-    right: 0;
-    width: 477px;
-    right-margin:100px;
-}
-
-.first-section-div{
-    display: flex;
-    flex-direction: column;
-    padding: 34px 0;
-}
-
-.enjoy-tv{
-    font-size: 46px;
-    font-weight: bold;
-}
-
-
-.watch-tv {
-    font-size: 20px;
-    margin-top: 5px;
-
-}
-
-second-section{
-    display: flex;
-    justify-content: center;
-    max-width: 70vw;
-    margin: auto;
-    color: white;
-    align-items: center;
-}
-.second-section-div{
-    display: flex;
-    flex-direction: column;
-    padding: 34px 0;
-}
-
-.download-shows{
-    font-size: 46px;
-    font-weight: bold;
-    color:white;
-}
-
-.save-fvrt{
-    font-size: 20px;
-    margin-top: 5px;
-    color:white;
-
-}
-*/
 .first {
     display: flex;
     justify-content: center;
@@ -284,4 +211,8 @@ second-section{
     color: white;
     margin-top: 16px;
 }
+
+
+
+
 
