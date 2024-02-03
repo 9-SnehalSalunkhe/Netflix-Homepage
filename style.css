@@ -229,6 +229,20 @@ section.first>div :nth-child(2) {
     cursor: pointer;
 }
 
+.acc-div{
+    background-color:black;
+}
+.acc1{
+    background-color: #202224;
+}
+.acc-btn1{
+background-color: gray;
+}
+
+
+
+
+
 .bottom-ready-to-watch{
      
         margin-left: 297px;
@@ -262,30 +276,15 @@ section.first>div :nth-child(2) {
     padding-bottom: 38px;
 }
 
-/*.footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 25px;
-}
 
-
-
-.footer a {
-font-size: 14px;
-color: white;
-}
-
-.footer-item {
-display: flex;
-flex-direction: column;
-gap: 23px;
-}*/
 .footer{
     color: rgba(255,255,255,0.7);
     font-weight: normal;
     margin-left: 98px;
     margin-top: 69px;
     font-size: 17px;
+    padding-bottom: 35px 
+   
 }
 
     
@@ -293,6 +292,7 @@ gap: 23px;
 a{
     color: rgba(255,255,255,0.7);
      font-size:small;
+    
 }
 .container1{
     margin-left: 102px;
@@ -304,4 +304,21 @@ a{
 }
 .container3{
 
+}
+
+.bottom-select{
+    width: 136px;
+    border-radius: 5px;
+    height: 33px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 126px;
+}
+.bottom-p{
+    color: rgba(255,255,255,0.7);
+    margin-left: 135px;
+    padding-top: 16px;
+    font-size: 14px;
 }
