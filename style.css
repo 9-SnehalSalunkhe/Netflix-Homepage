@@ -90,6 +90,8 @@ nav button {
 }
 
 .language{
+
+
     margin:auto;
     align-items: center;
     justify-content: center;
@@ -97,10 +99,15 @@ nav button {
     padding: 2px 10px;
     color:white;
     background:none;
+    z-index: 12;
   
     right:50px;
 }
 
+::selection {
+    color: red;
+    background: yellow;
+  }
 .btn {
     padding: 3px 8px;
     font-weight: 400;                                            
@@ -121,7 +128,7 @@ nav button {
     font-weight: 400;
     border: none;
     height: 51px;
-    padding-top: 11px 
+    margin-bottom: 12px;
 }
 
 .btn-red-sm {
@@ -193,6 +200,46 @@ section.first>div :nth-child(2) {
     font-size: 24px;
 
 }
+.saif-vdo{
+    width: 100%;
+    max-width: 60%;
+    max-height: 50%;
+    position: absolute;
+    left: 19%;
+    top: 15%;
+}
+
+.stranger-div{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 12px;
+    width: 304px;
+    height: 104px;
+    margin-bottom: 16px;
+    background-color: black;
+    margin-left: 126px;
+    margin-top: -126px;
+    padding-top: 6px;
+    padding-left: 6px;
+    z-index: 11;
+}
+
+
+.stranger_img{
+    width: 25% !important;
+    height: 88px;
+}
+
+
+.stranger-class{
+    color: white;
+   
+    padding-left: 11px;
+    padding-top: 25px;
+    font-size: 17px !important;
+}
+
+
 
 .faq h2 {
     text-align: center;
@@ -229,15 +276,7 @@ section.first>div :nth-child(2) {
     cursor: pointer;
 }
 
-.acc-div{
-    background-color:black;
-}
-.acc1{
-    background-color: #202224;
-}
-.acc-btn1{
-background-color: gray;
-}
+
 
 
 
@@ -249,6 +288,7 @@ background-color: gray;
         padding-top: 51px;
         font-size: 18px;
         font-weight: bold;
+        color:white;
     
 }
 .bottom-email{
