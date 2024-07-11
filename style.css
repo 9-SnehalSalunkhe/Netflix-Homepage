@@ -244,14 +244,15 @@ section.first>div :nth-child(2) {
 .faq h2 {
     text-align: center;
     font-size: 48px;
-    padding-bottom: 20px 
+
+    color: white;
 }
 
 .faq {
     background: black;
     color: white;
-    padding: 34px;
-    height: 893px;
+    padding-bottom: 20px;
+    height: 453px;
 }
 
 
@@ -362,3 +363,133 @@ a{
     padding-top: 16px;
     font-size: 14px;
 }
+
+
+  /* Style for accordion item */
+  .accordion-item {
+    background-color: #333; /* Dark grey background */
+    color: white; /* White text color */
+    width: 70%;
+    margin-left: 220px;
+    border: none;
+    margin-bottom: 15px;
+  }
+
+  /* Style for accordion button (header) */
+  .accordion-button {
+    color: #fff !important;
+    background-color: #2d2d2d !important;
+    box-shadow: none !important;
+  }
+
+  /* Style for accordion body (content) */
+  .accordion-body {
+    background-color: #2d2d2d;
+    color: white;
+    margin-top: 4px;
+    padding: 20px;
+}
+
+  .accordion-header {
+    margin-bottom: 5px;
+    border-bottom: 2px solid transparent; /* Set initial border color to transparent */
+    transition: border-color 0.3s ease;
+}
+  .bottom-inputs{
+    margin-bottom: 20px;
+  }
+
+  .email {
+    padding: 20px;
+    margin-top: 20px; 
+  }
+
+  .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+  
+  nav {
+    max-width:72vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+  .dropdown {
+    position: relative;
+    height: 32px;
+    left:270px;
+  }
+
+  /* Style for the dropdown button */
+  .dropdown button {
+    width: 130px;
+    padding: 3px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    color: white;
+    background-color:rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+    cursor: pointer;
+    height: 32px;
+    text-align: left;
+    padding-left: 8px;
+    position: relative;
+  }
+    /* Style for the down arrow */
+    .dropdown button::before {
+        content: "▼"; /* Unicode down arrow character */
+        position: absolute;
+        top: 50%;
+        right: 8px;
+        transform: translateY(-50%);
+      }
+  /* Style for the dropdown content */
+  .dropdown-content {
+    width: 130px;
+    display: none;
+    position: absolute;
+    background-color:rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+    border: 1px solid #ccc;
+    left: 0;
+    z-index: 1;
+    height: 60px;
+    text-align: left;
+
+  }
+
+  /* Style for each dropdown item */
+  .dropdown-content a {
+    width: 130px;
+    color: white;
+    padding: 6px 6px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #ccc;
+  }
+
+  /* Style for when hovering over a dropdown item */
+  .dropdown-content a:hover {
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+  }
+  /* Show the dropdown content when the button is clicked */
+  .dropdown:hover .dropdown-content, .dropdown-content a:focus {
+    display: block;
+  }
+
+  .dropdown-content a:last-child {
+    border-bottom: none;
+  }
